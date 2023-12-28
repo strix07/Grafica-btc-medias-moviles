@@ -1,0 +1,9 @@
+# Análisis de Datos Históricos de Bitcoin (BTC-USD) con Señales de Medias Móviles
+## Introducción
+En este análisis, se explora la evolución histórica del precio de Bitcoin (BTC-USD) mediante la representación gráfica de su comportamiento a lo largo del tiempo. Se emplean medias móviles para suavizar la variabilidad y destacar tendencias significativas. Además, se identifican señales de cruce entre una media móvil corta de 50 días y una media móvil larga de 200 días, así como máximos y mínimos locales.
+
+## Desarrollo
+El código utiliza la biblioteca yfinance para obtener datos históricos de Bitcoin y matplotlib para generar visualizaciones. La función obtener_datos descarga los datos históricos, mientras que graficar_precio_y_medias_moviles representa el precio histórico junto con medias móviles de 50 y 200 días. La función graficar_ultimo_precio_y_señales resalta el último precio y señala puntos de cruce alcistas (triángulos verdes) y bajistas (triángulos rojos) entre las medias móviles. También se identifican máximos y mínimos locales, representados por líneas horizontales azules y naranjas, respectivamente. La función graficar_volumen muestra el volumen de negociación.
+
+## Conclusión
+La gráfica resultante proporciona una visión integral de la evolución de Bitcoin, destacando momentos clave mediante señales de medias móviles y la identificación de extremos locales. El análisis visual facilita la interpretación de tendencias a largo plazo y la identificación de posibles puntos de inversión. Los triángulos y líneas horizontales resaltan áreas de interés, permitiendo a los analistas tomar decisiones informadas en base a estos patrones históricos. Este enfoque combina el análisis técnico con herramientas visuales para ofrecer una representación completa del comportamiento del mercado de Bitcoin a lo largo del tiempo.
